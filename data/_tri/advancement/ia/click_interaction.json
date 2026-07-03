@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "csch.with_interaction":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "entity_type":"interaction"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "_tri:ia/--click_interaction"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "criteria": {
+        "csch:reset_on_tickfunc":{
+            "trigger": "impossible"
+        }
+    }
+}

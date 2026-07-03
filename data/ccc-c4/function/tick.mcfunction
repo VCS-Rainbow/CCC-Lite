@@ -1,0 +1,1 @@
+execute as @e[tag=ccc.c4.machine.root] at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @n[dx=0,dy=0,dz=0,type=item] run function ccc-c4:add_new_pieces

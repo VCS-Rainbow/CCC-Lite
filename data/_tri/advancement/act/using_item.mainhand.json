@@ -1,0 +1,20 @@
+{
+    "parent": "_tri:reset_on_tickfunc",
+    "criteria": {
+        "csch:act/using_item":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "on":"mainhand"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "_tri:act/--using.mainhand"
+    }
+}
