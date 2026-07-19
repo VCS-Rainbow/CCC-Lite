@@ -1,3 +1,5 @@
+## 创建自定义棋子的四子棋街机
+#
 $execute align xyz positioned ~0.5 ~ ~0.5 if entity @s[y_rotation=-45.0001..45] rotated 0 ~ run function ccc-c4:m.place_machine {pieces:[$(pieces)]}
 $execute align xyz positioned ~0.5 ~ ~0.5 if entity @s[y_rotation=45.0001..135] rotated 90 ~ run function ccc-c4:m.place_machine {pieces:[$(pieces)]}
 $execute align xyz positioned ~0.5 ~ ~0.5 if entity @s[y_rotation=135.0001..180] rotated 180 ~ run function ccc-c4:m.place_machine {pieces:[$(pieces)]}

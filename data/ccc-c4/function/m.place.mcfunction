@@ -11,8 +11,9 @@ $summon falling_block ~ ~ ~ {\
                 scale:[1.025,1.025,1.025],\
                 translation:[0,-0.5125,0]\
             },\
-            Tags:["ccc.c4.piece"],\
-            data:{piece:"$(piece)"}\
+            Tags:["ccc","ccc.c4","ccc.c4.piece"],\
+            data:{piece:"$(piece)", machine_id:$(machine_id)}\
         } \
-    ]\
+    ],\
+    DropItem:false\
 }
