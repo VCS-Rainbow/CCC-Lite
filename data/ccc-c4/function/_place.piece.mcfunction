@@ -7,5 +7,5 @@ execute as @e[distance=..16,tag=ccc.c4.machine.root] store result score @s _ run
 execute as @e[distance=..16,tag=ccc.c4.machine.root] if score @s _ = @n[tag=temp] _ run function ccc-c4:machine_update
 tag @s remove temp
 data modify storage _ machine_id set from entity @s data.machine_id
-execute positioned ^ ^6 ^ run function ccc-c4:m.place with storage _
+execute positioned ^ ^6 ^-0.375 run function ccc-c4:m.place with storage _
 playsound minecraft:block.amethyst_block.place block @a[distance=..16]

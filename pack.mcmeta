@@ -4,7 +4,7 @@
             {"translate":"vdc.packmeta.dp.description.1","fallback":"","font":"bold12"},
             {"translate":"vdc.packmeta.dp.description.1.fallback","fallback":"闲凉活动室 ","font":"default", "color":"#99ffff","shadow_color": [0,0,0,0]},
             {"translate":"vdc.packmeta.dp.description.2","fallback":" §7街机小游戏合辑\n","font":"default","shadow_color": [0,0,0,0]},
-            {"translate":"vdc.packmeta.dp.description.3","fallback":" §e[Ver1.1]\n","font":"default","shadow_color": [0,0,0,0]},
+            {"translate":"vdc.packmeta.dp.description.3","fallback":" §e[Ver1.2]\n","font":"default","shadow_color": [0,0,0,0]},
             {"translate":"vdc.packmeta.dp.description.4","fallback":"        by VoidCreature workShop    ","font": "default"},
             {"translate":"vdc.packmeta.dp.description.5","fallback":"","font": "default"}
 

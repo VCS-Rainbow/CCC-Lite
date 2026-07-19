@@ -1,10 +1,13 @@
 $summon falling_block ~ ~ ~ {\
+    Tags:["ccc","ccc.c4","ccc.c4.piece"],\
+    data:{piece:"$(piece)", machine_id:$(machine_id)},\
     BlockState:{Name:"command_block"},\
     TileEntityData:{Command:'function ccc-c4:--placed {piece:"$(piece)",machine_id:$(machine_id)}', auto:true}, \
     Passengers:[ \
         {\
             id:"item_display", \
             item:{id:"$(piece)"}, \
+            Glowing:true,\
             transformation:{\
                 left_rotation:[0,0,0,1],\
                 right_rotation:[0,0,0,1],\
